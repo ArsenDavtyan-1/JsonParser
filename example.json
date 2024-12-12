@@ -1,0 +1,9 @@
+{
+  "boolean": true,
+  "color": "green",
+  "null": null,
+  "number": 123,
+  "string": "Hello World",
+  "name" : "Poghos",
+  "age" : 41
+}
