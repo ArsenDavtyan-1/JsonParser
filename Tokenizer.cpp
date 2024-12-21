@@ -105,7 +105,7 @@ Tokenizer::Token Tokenizer::parseString()
     if (pos == input.size() || input[pos] != '"') {
         throw std::runtime_error("Expected closing quote for string");
     }
-    pos++; // Skip closing quote
+    //pos++; // Skip closing quote - maybe we don't need it
     return { TokenType::String, result };
 }
 

@@ -11,7 +11,7 @@
 class JsonValue;
 
 
-using JsonObject = std::map < std::string, JsonValue>;
+using JsonObject = std::map <std::string, JsonValue>;
 using JsonArray = std::vector<JsonValue>;
 using JsonValueType = std::variant<std::nullptr_t, bool, double, std::string, JsonArray, JsonObject>;
 
